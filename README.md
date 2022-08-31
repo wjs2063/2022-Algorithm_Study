@@ -63,9 +63,9 @@ mac os 기준
 
 - 해당 문제풀이 후에 소스코드와 pdf 파일 을리기 
 
-git add .  
-git status (로 확인) 
-git commit -m " 커밋 메세지(규칙에 따라서 ) "  
+git add .    
+git status (로 확인)   
+git commit -m " 커밋 메세지(규칙에 따라서 ) "   
 git push origin [나의 branch 명] 으로 푸쉬  
 
 - push 완료  
