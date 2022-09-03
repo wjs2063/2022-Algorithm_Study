@@ -35,7 +35,7 @@ for _ in range(t):
     ex,ey = map(int,input().split())
     print(bfs(sx,sy,ex,ey))
 
-# T : O( l^2 ) , S : O( l )
+# T : O( l^2 ) , S : O( l^2 )
 
 
 '''
