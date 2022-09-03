@@ -35,13 +35,13 @@ int main()
 		int m, v;
 		scanf("%d %d", &m, &v);
 		gem.push_back({ m, v });
-		parent[i] = i;
 	}
 	for (int i = 0; i < k; i++)
 	{
 		int c;
 		scanf("%d", &c);
 		backpack.push_back(c);
+		parent[i] = i;
 	}
 
 	// 정렬
