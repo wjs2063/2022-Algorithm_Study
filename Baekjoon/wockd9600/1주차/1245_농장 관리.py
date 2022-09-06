@@ -17,7 +17,6 @@ def bfs():
             while queue:
                 x, y = queue.popleft()
                 
-
                 for dx, dy in dmove:
                     tx, ty = x + dx, y + dy
 
